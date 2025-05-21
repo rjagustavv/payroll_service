@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\DB;
 class GajiController extends Controller
 {
     // Misal potongan per hari tidak hadir (tanpa keterangan)
-    const POTONGAN_PER_HARI_ALPHA_PERSENTASE = 50000; // 4% dari gaji pokok per hari alpha (asumsi 25 hari kerja)
+    const POTONGAN_PER_HARI_ALPHA_PERSENTASE = 00.04; // 4% dari gaji pokok per hari alpha (asumsi 25 hari kerja)
                                                 // Atau bisa juga nilai tetap, misal 50000
 
     public function index(Request $request)
